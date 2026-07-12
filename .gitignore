@@ -1,0 +1,47 @@
+# ===========================
+# Flutter / Dart
+# ===========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-preload-cache/
+.pub/
+build/
+
+# ===========================
+# Android
+# ===========================
+**/android/local.properties
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+*.jks
+.gradle/
+
+# ===========================
+# macOS system files
+# ===========================
+.DS_Store
+
+# ===========================
+# Logs & temp
+# ===========================
+*.log
+*.lock
+!pubspec.lock
+*.class
+*.pyc
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===========================
+# Git LFS - tracked separately
+# (vosk model ~100MB via LFS)
+# ===========================
+# assets/models/vosk-model-small-ar-0.3.zip  ← tracked via LFS, NOT ignored

@@ -1,0 +1,1 @@
+assets/models/vosk-model-small-ar-0.3.zip filter=lfs diff=lfs merge=lfs -text
